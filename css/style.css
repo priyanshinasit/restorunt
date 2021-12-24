@@ -1,0 +1,296 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap'); */
+
+/* ------common css------ */
+section{
+    margin-bottom: 100px;
+}
+.commonbtn{
+    text-decoration: none;
+    color: white;
+    background-color: #a5821f;
+    padding: 10px 20px;
+
+}
+.commonbtn:hover{
+    text-decoration: none;
+    color: white;
+}
+.commontitle{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    font-size: 15px;
+}
+h2{
+    margin: 0px auto;
+}
+body{
+    overflow-x:hidden ;
+    width: 100vw;
+}
+h1,h2,h3,h4,h5,.menu li,.mainmenu small ,.guestbook p {
+    font-family: 'Kaushan Script', cursive;
+}
+/* -------header------- */
+.navcolorone{
+    background-color: white;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    background: rgb(12 12 12 / 40%) !important;
+}
+nav a{
+    color: white !important;
+}
+.dropdown-menu a:hover{
+    background-color: black !important;
+}
+header {
+    background: rgb(12 12 12 / 40%);
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 0;
+    
+}
+header a{
+    color: white;
+}
+header a:hover{
+    color: white !important;
+}
+header nav ul li{
+    padding: 0 15px;
+}
+.logo{
+    font-size: 30px;
+}
+.bbox{
+    border: 1px solid orange;
+    padding: 5px;
+    display: inline-block;
+}
+
+
+/* ------banner------- */
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    max-width: 650px;
+}
+/* -----special----- */
+ .special{
+    background-image: url(../img/fi.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.special aside{
+    background-color: white;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 15px 100px;
+}
+.check-our{
+    padding:0 45px
+}
+.special h5{
+    color: orange;
+}
+
+/* ------welcome------- */
+.welcome img{
+    width: 100%;
+}
+.welcome p{
+    padding: 17px 0px;
+}
+
+/* ------our menu------ */
+.bgimg{
+    margin-top: 85px;
+}
+.bgimg img{
+    height: 900px;
+    width: 100%;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+}
+.menu li{
+    list-style-type: none;
+    padding: 0px 20px;
+    
+}
+.ourmenu li{
+    cursor: pointer;
+}
+.ourmenu li:hover{
+    border-bottom: 4px solid orange;
+}
+.ourmenu .active{
+    border-bottom: 4px solid orange;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+.mainmenu{
+    position: absolute;
+    top: -50px; 
+    left: 13%;
+    z-index: 1;
+}
+.mainmenu img{
+    width: 100%;
+}
+.multiimg{
+    position: relative;
+}
+.imgborder{
+    height: 15px;
+    width: 50% !important;
+}
+
+/* ------guest book------ */
+.guestbook{
+    background-image: url(../img/fi.jpeg);
+    height: 600px;
+    margin-top: 160px;
+}
+.owl-nav{
+    display: block !important;
+}
+.owl-dots{
+    display: block !important;
+}
+.guestbg{
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 70px;
+}
+.guestbg i{
+    color: orange;
+}
+.guestone{
+    background-color: white;
+   
+}
+.guestone img{
+    width: 50px !important;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+.guesttitle{
+    color: white;
+    padding-top: 60px;
+}
+
+/* ------event-------- */
+.date{
+    background-color: #313131;
+    color: white;
+    padding: 5px 10px;
+    position: absolute;
+    top: -34px;
+    right: 20px;
+    border-radius: 3px;
+}
+.datepos{
+    position: relative;
+}
+.event img{
+    width: 100%;
+    object-fit: cover;
+}
+.event p{
+    padding: 17px 0px;
+}
+
+/* -----footer----- */
+footer{
+    background-image: url(../img/fi.jpeg);
+}
+.partone{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+.secondpart{
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding-bottom: 40px;
+}
+.footerdetail{
+    display: flex;
+}
+.thirdpart{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+.thirdpart small{
+    display: block;
+}
+footer a{
+    text-decoration: none;
+    color: orange;
+}
+footer a:hover{
+    text-decoration: none;
+    color: orange;
+}
+footer hr{
+    background-color: white;
+    width: 70%;
+    background-color: #545454;
+    margin: 5px auto;
+}
+.allft{
+    padding: 80px 0px;
+}
+.endfooter{
+    color: white;
+    padding: 15px;
+    background-color: black;
+    text-align: center;
+}
+
+
+/* -------media query------*/
+@media only screen and (max-width:1000px){
+    .mainmenu{
+
+        position: unset;
+      
+    }
+    .bgimg img{
+        display: none;
+    }
+    .multiimg{
+        position: unset;
+    }
+}
+@media only screen and (max-width: 992px) {
+   header .bar{
+        display: none;
+    }
+  } 
